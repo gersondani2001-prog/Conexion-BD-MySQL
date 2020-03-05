@@ -1,0 +1,39 @@
+<!-- Documento html -->
+<!DOCTYPE html>
+<!-- En lenguaje español -->
+<html lang="es">
+<!-- Los documentos en el encabezado -->
+<head>
+    <!-- los metas necesarios de caracteres y compatibilidad -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description" content="PaginaWebConexionSQL">
+    <title>Document</title>
+</head>
+<!-- Cuerpo del documento -->
+<body>
+
+
+    <!-- 
+
+        Formulario
+            con documento main.php metodo post para obtenes datos
+            con variables:
+                nombre
+                email
+                contrasena
+            boton para enviar datos
+
+     -->
+    <form action="php/main.php" method="POST">
+        <label>Nombre: </label><input type="text" name="nombre"><br/>
+        <label>Email: </label><input type="email" name="email"><br/>
+        <label>Contraseña: </label><input type="contrasena" name="contrasena"><br/>
+        <input type="submit" name="enviar">
+    </form>
+
+    
+</body>
+</html>
